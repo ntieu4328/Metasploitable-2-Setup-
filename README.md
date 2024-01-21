@@ -39,5 +39,18 @@ Create the Metasploitable 2 virtual machine:
 
 After Metasploitable 2 finishes installing it should look like this:
 ![After download](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/e8d228e2-2b22-48b2-9239-d7db2153d533)
+<br>
+<br>
 
-On Kali Linux install Nessu from tenable
+On Kali Linux install Nessus from Tenable:
+  - Get access code that will be used later: [Access code website](https://www.tenable.com/products/nessus/nessus-essentials)
+  - Download Nessus: [Nessus Download Website](https://www.tenable.com/downloads/nessus?loginAttempted=true)
+![install nessus](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/84e1382e-c82b-488a-b7a8-758e448308fe)
+  - Go into Kali Linux Terminal and install Nessus:
+```bash
+sudo dpkg -i (name of Nessus package)
+```
+  - At the end of installation it will show you instructions on how to start Nessus:
+![start nessus instructions](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/77c07ec2-1bfc-4f81-90e0-102b8bf46174)
+
+<b>You have finished setting everything up!!!</b>
