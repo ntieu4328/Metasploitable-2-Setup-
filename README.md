@@ -71,4 +71,4 @@ sudo dpkg -i (name of Nessus package)
   - You will then be brought to the Nessus dashboard:
 ![nessus dashboard](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/51f6520c-635a-499d-8a79-8202d56fb65f)
 
-<b>You have finished setting everything up!!!</b>
+<b>Setup is finished!!!</b>
