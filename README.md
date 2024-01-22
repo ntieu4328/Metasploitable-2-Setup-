@@ -50,7 +50,25 @@ On Kali Linux install Nessus from Tenable:
 ```bash
 sudo dpkg -i (name of Nessus package)
 ```
-  - At the end of installation it will show you instructions on how to start Nessus:
+  - At the end of the installation it will show you instructions on how to start Nessus:
 ![start nessus instructions](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/77c07ec2-1bfc-4f81-90e0-102b8bf46174)
+  - Start Nessus Scanner:
+```bash
+/bin/systemctl start nessusd.service
+```
+  - Open a web browser. For me, I opened Firefox
+  - go to https://kali:8834/
+  - Nessus welcome page: Press continue
+
+![nessus welcome page](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/947a694e-984d-42ac-9174-55f24720cca8)
+
+  - Register for Nessus Essentials:
+
+![Register for Nessus Essential](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/b7f0681e-8ee0-4ba8-ad5e-6671f0100018)
+  
+  - Skip
+  - Input the activation code that you got
+  - You will then be brought to the Nessus dashboard:
+![nessus dashboard](https://github.com/ntieu4328/Metasploitable-2-Setup-/assets/156137990/51f6520c-635a-499d-8a79-8202d56fb65f)
 
 <b>You have finished setting everything up!!!</b>
